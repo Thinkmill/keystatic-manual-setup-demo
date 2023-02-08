@@ -1,5 +1,5 @@
 {
-  "name": "keystatic-from-published-test",
+  "name": "@keystatic/template",
   "dependencies": {
     "next": "^13.1.1",
     "react": "^18.2.0",
