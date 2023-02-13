@@ -1,3 +1,4 @@
 import createKeystaticAPIRoute from "keystatic/api";
+import config from "../../../keystatic";
 
-export default createKeystaticAPIRoute({});
+export default createKeystaticAPIRoute({ config });

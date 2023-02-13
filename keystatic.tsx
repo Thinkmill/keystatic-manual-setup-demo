@@ -1,9 +1,12 @@
 import { collection, component, config, fields } from "keystatic";
 
 export default config({
-  repo: {
-    owner: process.env.NEXT_PUBLIC_VERCEL_GIT_REPO_OWNER!,
-    name: process.env.NEXT_PUBLIC_VERCEL_GIT_REPO_SLUG!,
+  storage: {
+    kind: "github",
+    repo: {
+      owner: process.env.NEXT_PUBLIC_VERCEL_GIT_REPO_OWNER!,
+      name: process.env.NEXT_PUBLIC_VERCEL_GIT_REPO_SLUG!,
+    },
   },
   collections: {
     posts: collection({
