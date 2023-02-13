@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/react': ^18.0.26
-  keystatic: ^0.0.26
+  keystatic: ^0.0.27
   next: ^13.1.1
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -10,7 +10,7 @@ specifiers:
 
 dependencies:
   '@types/react': 18.0.26
-  keystatic: 0.0.26_next@13.1.1
+  keystatic: 0.0.27_next@13.1.1
   next: 13.1.1_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -3274,8 +3274,8 @@ packages:
     resolution: {integrity: sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==}
     dev: false
 
-  /keystatic/0.0.26_next@13.1.1:
-    resolution: {integrity: sha512-EV+vqqfQT4QYBB1/G4u01184oGJij9WdjoLjvH2Eq+p9OM7UQMbk+LebT9KIeBVZQaoPHbODNGbi3AKwshzVqg==}
+  /keystatic/0.0.27_next@13.1.1:
+    resolution: {integrity: sha512-NLL7AjIS8q/4jbYqRIJClWaP6+q8N/knFG1Mjb0D9KQgwJUAaf8Pim+61J9aX5cjYYDQgw6UugqUz4u/FJi8LQ==}
     peerDependencies:
       next: '13'
     dependencies:
