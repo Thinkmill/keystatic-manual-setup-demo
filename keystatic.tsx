@@ -1,4 +1,4 @@
-import { collection, component, config, fields } from "keystatic";
+import { collection, component, config, fields } from "@keystatic/core";
 
 export default config({
   storage: {
@@ -21,6 +21,15 @@ export default config({
         }),
         content: fields.document({
           label: "Content",
+          formatting: true,
+          dividers: true,
+          links: true,
+          layouts: [
+            [1, 1],
+            [1, 1, 1],
+            [2, 1],
+            [1, 2, 1],
+          ],
           componentBlocks: {
             something: component({
               label: "Some Component",
