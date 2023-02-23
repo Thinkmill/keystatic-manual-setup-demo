@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@keystatic/core': ^0.0.46
-  '@keystatic/next': ^0.0.3
+  '@keystatic/next': ^0.0.4
   '@types/react': ^18.0.26
   next: ^13.1.1
   react: ^18.2.0
@@ -11,7 +11,7 @@ specifiers:
 
 dependencies:
   '@keystatic/core': 0.0.46_biqbaboplfbrettd7655fr4n2y
-  '@keystatic/next': 0.0.3_42k37supdnud7bfonsjcerww3u
+  '@keystatic/next': 0.0.4_42k37supdnud7bfonsjcerww3u
   '@types/react': 18.0.28
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
@@ -362,8 +362,8 @@ packages:
       - supports-color
     dev: false
 
-  /@keystatic/next/0.0.3_42k37supdnud7bfonsjcerww3u:
-    resolution: {integrity: sha512-RsaiWSunG5BqdaIBR0DXVWJN14PW47yrXN+eURX+nUm0VQDBJ3BPdUNPCrA/rRodwXSixWYKUgjg3WNovbSVIw==}
+  /@keystatic/next/0.0.4_42k37supdnud7bfonsjcerww3u:
+    resolution: {integrity: sha512-ZET1vEl0P6k3O/Fxvr+idqKbxqwNPadQmBCabR5/8D7KQPZScRCERglhIz17wjO/SWEiNh+jLfvZVhNqxMYz/Q==}
     peerDependencies:
       '@keystatic/core': '*'
       next: '13'
