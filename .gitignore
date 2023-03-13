@@ -105,3 +105,6 @@ dist
 
 # macos
 .DS_Store
+
+# Code editor settings
+.vcsode
