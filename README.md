@@ -1,32 +1,6 @@
-# Keystatic Blank Template
+# Keystatic Blank Starter — Manual Setup Demo
 
-This is a blank template using Keystatic as a CMS.
-
-It uses:
-
-- Keystatic
-- NextJS
-
-## Getting started
-
-Here are a set of instructions to get Keystatic running locally
-
-### Prerequisites
-
-You will need to have pnpm installed
-```
-npm install -g pnpm
-```
-
-### Installing
-```
-pnpm i
-```
-
-Run the development server
-```
-npm run dev
-```
+This is a repo adapted from the [Keystatic blank starter template](https://github.com/Thinkmill/keystatic-template). The purpose for this repo is a starting point to document the steps to connect an existing local Keystatic project to GitHub.
 
 ## License
 
