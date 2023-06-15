@@ -17,13 +17,9 @@ export default config({
     posts: collection({
       label: 'Posts',
       path: 'content/posts/*/',
-      slugField: 'slug',
+      slugField: 'title',
       schema: {
-        title: fields.text({ label: 'Title' }),
-        slug: fields.text({
-          label: 'Slug',
-          validation: { length: { min: 4 } },
-        }),
+        title: fields.slug({ name: { label: 'Title' } }),
         content: fields.document({
           label: 'Content',
           formatting: true,
